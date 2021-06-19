@@ -1,4 +1,3 @@
-import React from 'react'
 import Navbar from './components/Navbar'
 import Banner from './components/Banner'
 import HomeCards1 from './components/HomeCards1'
@@ -11,26 +10,26 @@ import Footer from './components/Footer'
 
 const App = () => {
   return (
-    <div className="container">
-      {/* Nav */}
-      <Navbar />
+    <>
+      <div className="container">
+        <Navbar />
 
-      <Banner />
+        <Banner />
 
-      <HomeCards1 />
+        <HomeCards1 />
 
-      <Xbox />
+        <Xbox />
 
-      <HomeCards2 />
+        <HomeCards2 />
 
-      <Carbon />
+        <Carbon />
 
-      <Follow />
+        <Follow />
+      </div>
 
       <Links />
-
       <Footer />
-    </div>
+    </>
   )
 }
 

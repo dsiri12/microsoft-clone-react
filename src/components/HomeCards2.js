@@ -2,7 +2,7 @@ import React from 'react'
 
 const HomeCards2 = () => {
   return (
-    <header classname="home-cards">
+    <header className="home-cards">
       <div>
         <img src="https://i.ibb.co/zVqhWn2/card5.png" alt="" />
         <h3>Microsoft Teams</h3>
